@@ -58,6 +58,10 @@ h2  {
 
   }
 
+  .button1:hover {background-color: #2980B9;
+
+  }
+
   .dropbtn{
       background-color: #2980B9;
       padding: 16px;
