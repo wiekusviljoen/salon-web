@@ -55,6 +55,15 @@ h4 {
     font-size: 20px;
 }
 
+input{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
  
 
 
