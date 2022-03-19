@@ -1,4 +1,4 @@
-
+alert("Welcome Dear Customer")
 
  function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
