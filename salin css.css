@@ -22,7 +22,7 @@ h2  {
 
    
 
-button {
+.button {
     background-color: aqua;
     border-color: aqua;
     border-top: aqua;
@@ -34,11 +34,15 @@ button {
     size: 30px;
     font-size: 30px;
     
-    
-    
 }
 
 
+ .button1{
+     background-color: aqua;
+    size: 10px;
+}
+
+ 
 
 
 /*Dropdown Button */
