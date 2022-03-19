@@ -20,6 +20,8 @@ h2  {
      text-align: center;
     }
 
+   
+
 button {
     background-color: aqua;
     border-color: aqua;
@@ -29,7 +31,7 @@ button {
     border-right: aqua;
     border-radius: 20px;
     cursor: pointer;box-shadow: #2980B9; 
-    font-size: 30px;
+    font: size 30px; ;
     size: 30px
     
     
