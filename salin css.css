@@ -1,91 +1,87 @@
 h1 {
-    font-family: 'Dancing Script', cursive;;
-    font-style: italic;
-    text-align: center;
-    font-size: 50px;
-    background-color: rgb(250, 250, 250) 
-    ;color: rgb(15, 15, 15); 
-     text-align: center;
-     border-radius: 5px;
-     background-color: rgb(255, 255, 255);
-     position:relative
-     
-     
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(250, 250, 250);
+  color: rgb(15, 15, 15);
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  position: relative;
 }
 
-h2  {
-     color: rgb(15, 15, 15); 
-     text-align: center;
-     border-radius: 5px;
-     text-align: center;
-    }
+h2 {
+  color: rgb(15, 15, 15);
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+}
 
 h4 {
-    color: black;
-    text-align: center;
-    border-radius: 5px;
-    background-color: aliceblue;
-}   
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
 
 .button {
-    background-color: aqua;
-    border-color: aqua;
-    border-top: aqua;
-    border-bottom: aqua;
-    border-left: aqua;
-    border-right: aqua;
-    border-radius: 20px;
-    cursor: pointer;box-shadow: #2980B9; 
-    size: 30px;
-    font-size: 30px;
-    
+  font-family: "Dancing Script", cursive;
+  background-color: aqua;
+  border-color: aqua;
+  border-top: aqua;
+  border-bottom: aqua;
+  border-left: aqua;
+  border-right: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: #2980b9;
+  size: 30px;
+  font-size: 30px;
 }
 
-
- .button1{
-     background-color: aqua;
-     border-color: aqua;
-     border-top: aqua;
-     border-bottom: aqua;
-     border-left: aqua;
-     border-right: aqua;
-     border-radius: 20px;
-     cursor: pointer;box-shadow: #2980B9; 
-    size: 20px;
-    font-size: 20px;
+.button1 {
+  background-color: aqua;
+  border-color: aqua;
+  border-top: aqua;
+  border-bottom: aqua;
+  border-left: aqua;
+  border-right: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: #2980b9;
+  size: 20px;
+  font-size: 20px;
 }
 
-input{
-    background-color: aqua;
-    border-radius: 5px;
+input {
+  background-color: aqua;
+  border-radius: 5px;
 }
 
-textarea{
-    border-radius: 10px;
+textarea {
+  border-radius: 10px;
 }
-
- 
-
 
 /*Dropdown Button */
-.button:hover {background-color: #2980B9;
+.button:hover {
+  background-color: #2980b9;
+}
 
-  }
+.button1:hover {
+  background-color: #2980b9;
+}
 
-  .button1:hover {background-color: #2980B9;
+.dropbtn {
+  background-color: #2980b9;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-  }
-
-  .dropbtn{
-      background-color: #2980B9;
-      padding: 16px;
-      font-size: 16px;
-      border: none;
-      cursor: pointer;
-  }
-
-  .dropbtn:hover, .dropbtn:focus {
-      background-color: #2980B9;
-      transition: 0.2s;
-  }
- 
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+  transition: 0.2s;
+}
