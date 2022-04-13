@@ -55,7 +55,7 @@ h4 {
 }
 
 input {
-  background-color: aqua;
+  background-color: rgb(224, 228, 228);
   border-radius: 5px;
 }
 
@@ -84,4 +84,8 @@ textarea {
 .dropbtn:focus {
   background-color: #2980b9;
   transition: 0.2s;
+}
+
+form {
+position: relative;left: 25%;
 }
