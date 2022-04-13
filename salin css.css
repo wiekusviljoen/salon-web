@@ -93,5 +93,17 @@ font-family: cursive;
 }
 
 .button3 {
-background-color: #2980b9;
+background-color:aqua;
+border-radius: 20px;
+box-shadow: #2980b9;
+cursor: pointer;
+border-right:aqua;
+border-bottom:aqua;
+border-left:aqua;
+border-top:aqua;
+font-size: 15px;
+}
+
+.button3:hover {
+  background-color:#2980b9
 }
