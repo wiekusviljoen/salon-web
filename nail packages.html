@@ -9,6 +9,17 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
         </style>
+
+        <script>
+            window.onload = function() {
+                document.getElementById("color").addEventListener('change', displayColor, false);
+            }
+
+            function displayColor()
+            {
+                document.getElementById('colorOut').innerHTML = document.getElementById('color').value;
+            }
+        </script>
 </head>
 <body background="https://cnd.com/blog/wp-content/uploads/2019/01/contemporarymanicuretool_630837.jpg"></body>
 <a href="index.html">
@@ -29,5 +40,11 @@
     Here you can choose the color you want.
  
     </h1> 
+
+    <form action="#" method="post">
+        <label for="color">Color</label>
+        <input type="color" id="color">
+        <output id="colorOut"></output>
+    </form>
 </body>
 </html>
